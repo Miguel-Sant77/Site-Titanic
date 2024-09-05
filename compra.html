@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Compra - Bilheteira do Titanic</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Menu de Navegação -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Página Inicial</a></li>
+            <li><a href="sobre.html">Sobre o Titanic</a></li>
+            <li><a href="tickets.html">Tickets e Programas</a></li>
+            <li><a href="cadastro.html">Cadastro</a></li>
+            <li><a href="compra.html">Formulário de Compra</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Formulário de Compra</h1>
+        <form class="form-container">
+            <label for="pagamento">Meio de Pagamento:</label>
+            <select id="pagamento" name="pagamento" required>
+                <option value="cartao">Cartão de Crédito</option>
+                <option value="boleto">Boleto Bancário</option>
+                <option value="transferencia">Transferência Bancária</option>
+            </select>
+            
+            <label for="produtos">Produtos:</label>
+            <textarea id="produtos" name="produtos" rows="4" required></textarea>
+            
+            <label for="quantidade">Quantidade:</label>
+            <input type="number" id="quantidade" name="quantidade" required>
+            
+            <button type="submit" class="button">Confirmar Compra</button>
+        </form>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>Contatos: bilhetes@titanic.com | Telefone: (11) 4002-8922</p>
+        <p>Endereço: Rua dos Mares, 123, Oceano, Terra.</p>
+    </footer>
+
+</body>
+</html>

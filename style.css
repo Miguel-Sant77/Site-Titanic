@@ -1,0 +1,168 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo do documento */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Menu de navegação */
+nav {
+    background-color: #003366;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo geral para o conteúdo principal */
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Estilo para seções com pacotes e informações */
+.ticket-package, .about-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.ticket-package {
+    flex-direction: column;
+}
+
+.package-info, .about-info {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.package-info h2, .about-info h2 {
+    color: #003366;
+}
+
+.package-info p, .about-info p {
+    margin: 10px 0;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #003366;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+}
+
+.button:hover {
+    background-color: #002244;
+}
+
+/* Estilo para as imagens dos pacotes e informações */
+.package-image, .about-image {
+    width: 100%;
+    max-width: 600px; /* Ajuste conforme necessário */
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Estilo para os formulários */
+.form-container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-container label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #003366;
+}
+
+.form-container input, .form-container select, .form-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-container textarea {
+    resize: vertical;
+}
+
+.form-container button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #003366;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+}
+
+.form-container button:hover {
+    background-color: #002244;
+}
+
+/* Rodapé */
+footer {
+    background-color: #003366;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Estilo adicional */
+h1 {
+    color: #003366;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #003366;
+}
